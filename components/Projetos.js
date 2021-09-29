@@ -3,6 +3,7 @@ import React from 'react'
 export default function Projetos() {
     return (
         <div className=" container lg:w-7/12 m-auto">
+            {/* projeto 1 -> */} 
             <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl mt-6">
                 <div className="md:flex">
                     <div className="md:flex-shrink-0">
@@ -16,11 +17,13 @@ export default function Projetos() {
                         Este aplicativo foi desenvolvido em react-native com expo, possue autenticação com firebase e duas funcionalidades básicas, cadastrar as despesa e receitas do usuário  e por fim mostrar o saldo remanescente.</p>
                     <a href="https://github.com/soluger/wallet" className="text-indigo-500 hover:underline">
                         Projeto no github</a>
-                    <a href="" className="text-indigo-500 hover:underline ml-4">
-                        Download do APK</a>
+                    {/*<a href="" className="text-indigo-500 hover:underline ml-4">
+                        Download do APK</a>*/}
                     </div>
                 </div>
             </div>
+            {/* projeto 2 -> */} 
+            
         </div>
     )
 }
