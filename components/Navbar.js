@@ -21,7 +21,7 @@ export default function Navbar({setTabs}) {
                         <div className="p-2 flex justify-end ...">
                         <button onClick={()=>setTabs("home")} className="bg-transparent border border-gray-500 hover:border-green-500 text-xs text-gray-500 hover:text-green-500 font-bold py-1 px-4 rounded-full">About</button>
                             <button onClick={()=>setTabs("hardSkils")} className="bg-transparent border border-gray-500 ml-2 hover:border-green-500 text-xs text-gray-500 hover:text-green-500 font-bold py-1 px-4 rounded-full">Hard skills</button>
-                            <button onClick={()=>setTabs("projetos")} className="bg-transparent border border-gray-500 ml-2 hover:border-green-500 text-xs text-gray-500 hover:text-green-500 font-bold py-1 px-4 rounded-full">projects</button>
+                            <button onClick={()=>setTabs("projetos")} className="bg-transparent border border-gray-500 ml-2 hover:border-green-500 text-xs text-gray-500 hover:text-green-500 font-bold py-1 px-4 rounded-full">Projects</button>
                             <button onClick={()=>setTabs("cursos")} className="bg-transparent border border-gray-500 ml-2 hover:border-green-500 text-xs text-gray-500 hover:text-green-500 font-bold py-1 px-4 rounded-full">Courses</button>
                         </div>                    
                     </div>
